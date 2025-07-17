@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="heartGradient" x1="16" y1="24" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a21caf" />
+      <stop offset="1" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M32 6C32 6 10 14 10 26C10 46 32 58 32 58C32 58 54 46 54 26C54 14 32 6 32 6Z" fill="url(#shieldGradient)" stroke="#2563eb" stroke-width="2"/>
+  <!-- Heart -->
+  <path d="M32 44C32 44 20 36 20 28C20 22.4772 25.4772 20 32 26.5C38.5228 20 44 22.4772 44 28C44 36 32 44 32 44Z" fill="url(#heartGradient)" stroke="#a21caf" stroke-width="1.5"/>
+  <!-- AI Dot -->
+  <circle cx="32" cy="18" r="2.2" fill="#38bdf8" stroke="#fff" stroke-width="1"/>
+</svg> 
