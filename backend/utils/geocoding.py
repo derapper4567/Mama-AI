@@ -14,10 +14,10 @@ def geocode_address(address: str) -> Optional[Dict]:
         'q': address,
         'format': 'json',
         'limit': 1,
-        'countrycodes': 'tz,ke'  # Limit to Tanzania since you're in Dar es Salaam
+        'countrycodes': 'tz,ke'  
     }
     headers = {
-        'User-Agent': 'PatientDashboard/1.0'  # Required by Nominatim
+        'User-Agent': 'PatientDashboard/1.0'  
     }
     
     try:
@@ -42,7 +42,7 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     """
     Calculate the great circle distance between two points on Earth (in kilometers)
     """
-    R = 6371  # Radius of Earth in kilometers
+    R = 6371
     
     # Convert latitude and longitude from degrees to radians
     lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])
